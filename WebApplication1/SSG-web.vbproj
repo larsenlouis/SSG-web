@@ -55,9 +55,8 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.Mobile" />
-    <Reference Include="zxing, Version=0.14.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\zxing.dll</HintPath>
+    <Reference Include="zxing">
+      <HintPath>..\lib\zxing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
