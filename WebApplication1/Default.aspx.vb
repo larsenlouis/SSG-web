@@ -234,6 +234,7 @@ Public Class _Default
         Response.AddHeader("Content-Length", configjson.Length.ToString())
         Response.ContentType = "application/json"
         Response.Write(configjson)
+        Response.End()
 
         Console.Write(out)
         out = vbNullString
