@@ -11,9 +11,8 @@
     <div>
     <asp:Button ID="Button1" runat="server" Text="SS Get" />    
     <hr />
-    <p>Progress:</p>
          <asp:TextBox ID="msg" runat="server" width=100% TextMode="MultiLine" 
-            Height="300px"></asp:TextBox>
+            Height="300px" Visible="False"></asp:TextBox>
     </div>
     </form>
     </body>
