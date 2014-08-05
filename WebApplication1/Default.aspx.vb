@@ -147,7 +147,7 @@ Public Class _Default
             Next
             hwresponse.Close()
         Catch ex As Exception
-            Response.WriteFile(ex.Message) ', "错误", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            'Response.WriteFile(ex.Message) ', "错误", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         For index = 0 To urlcount
