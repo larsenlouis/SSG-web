@@ -68,7 +68,7 @@ Public Class _Default
             jsonresponse.Close()
         Catch
             Dim ex As New Exception
-            Response.Write(ex.Message)
+            Response.Write("Cannot fetch server list!")
         End Try
         ShowStopWatch("Fetching json")
 
